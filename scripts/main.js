@@ -6,7 +6,7 @@ const photo = document.querySelector("#photo")
 
 function change_animal(animal) {
     text.innerHTML = "Here's a picture of a " + animal + "."
-    photo.src = "../images/" + animal + ".jpg"
+    photo.src = "images/" + animal + ".jpg"
 }
 
 animal_buttons.forEach(button => {
